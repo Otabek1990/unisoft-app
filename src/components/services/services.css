@@ -1,0 +1,49 @@
+.services {
+  width: 100%;
+  padding-right: 30px;
+}
+.services .h1Head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 135px;
+  letter-spacing: -0.05em;
+  color: #333333;
+  text-align: right;
+}
+.services .pHead {
+  margin-left: auto;
+  width: 635px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  color: #333333;
+  margin-bottom: 50px;
+  padding: 0 75px;
+}
+/* Responsive service------------------- */
+@media screen and (max-width:800px) {
+.services{
+  padding:30px;
+}
+  .services .h1Head {
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services .pHead {
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom:10px;
+    padding: 0 ;
+  }
+  
+}

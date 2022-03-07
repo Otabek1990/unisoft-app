@@ -1,0 +1,59 @@
+.servicesPage {
+  width: 100vw;
+  max-width: 100%;
+}
+.servicesPage .navbarr {
+  background-color: #f4f7f5;
+}
+.servicesPage .navbarr .link1 {
+  display: none;
+}
+.servicesPage .navbarr .leftBlack {
+  display: block;
+}
+.servicesPage .navbarr li,
+.servicesPage .navbarr .right select {
+  color: black;
+  text-decoration: none;
+}
+.servicesPage .wrapper {
+  width: 100%;
+  padding: 90px 75px 0;
+}
+.servicesPage .wrapper .navigator {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #333333;
+}
+.servicesPage .wrapper .navigator span {
+  color: #1a6cc7;
+  font-weight: 500;
+}
+.servicesPage h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 135px;
+  letter-spacing: -0.05em;
+  color: #333333;
+  margin-bottom: 70px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width:800px) {
+  .servicesPage .wrapper {
+    width: 100%;
+    padding: 30px;
+    margin-top: 80px;
+  }
+
+  .servicesPage h1{
+    font-size: 40px;
+      line-height: 35px;
+    margin: 40px 0;
+  }
+}

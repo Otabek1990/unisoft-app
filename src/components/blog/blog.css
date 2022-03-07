@@ -1,0 +1,18 @@
+.blog h1{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 85px;
+    line-height: 135px;
+    letter-spacing: -0.05em;
+    color: #333333;
+    text-align: left;
+    padding: 0 75px;
+}
+@media screen and (max-width:800px) {
+    .blog h1{
+        font-size: 40px;
+        text-align: center;
+        line-height: 70px;
+    }
+}

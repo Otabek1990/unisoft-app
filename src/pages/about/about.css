@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
+.aboutt {
+  max-width: 100vw;
+}
+
+.aboutt .navbarr li,
+.aboutt .navbarr select {
+  color: black;
+}
+
+.aboutt .navbarr .link1 {
+  display: none;
+}
+
+.aboutt .navbar-dark li,
+.aboutt .navbar-dark select {
+  color: white;
+}
+
+.aboutt .navbarr .leftBlack {
+  display: block;
+}
+
+.aboutPart {
+  max-width: 100vw;
+  padding: 90px 75px 100px;
+}
+
+.aboutPart h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333333;
+  padding-left: 0;
+}
+
+.aboutPart h3 span {
+  color: blue;
+}
+
+.aboutPart h3:hover {
+  color: blue;
+}
+
+.aboutPart h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-left: 0;
+  color: #333333;
+}
+
+.aboutPart .headP {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  padding-left: 0;
+  color: #333333;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.aboutPart .img_banner {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.aboutPart .content-text {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.aboutPart h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 70%;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.aboutPart video {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* Responsive about--------------------------------- */
+@media screen and (max-width: 800px) {
+  .aboutt {
+    padding: 30px;
+    margin-top: 70px;
+  }
+  .aboutPart {
+    max-width: 100vw;
+    padding: 0;
+  }
+
+  .aboutPart h3 {
+    font-size: 20px;
+  }
+  .aboutPart h1 {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  .aboutPart .headP {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .aboutPart .img_banner {
+    margin-bottom: 20px;
+  }
+
+  .aboutPart .content-text {
+    font-size: 16px;
+    margin-bottom:0;
+
+
+  }
+
+  .aboutPart h2 {
+    width: 100%;
+    font-size: 20px;
+    color: #333333;
+  margin-top: 20px;
+  }
+
+  .aboutPart video {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,57 @@
+.numbers {
+  width: 100%;
+  padding: 0 75px;
+  /* margin: 80px 0 100px; */
+}
+.numbers .numHeader {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 135px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+
+.numbers h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: -0.05em;
+  color: #1a6cc7;
+}
+.numbers  p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.05em;
+  color: #333333;
+}
+@media screen and (max-width:800px) {
+  .numbers {
+    padding: 30px;
+  }
+  .numbers .numHeader{
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+  .row{
+    text-align: center;
+  }
+  .numbers h1 {
+    font-size: 40px;
+    line-height: 80px;
+ 
+  }
+  .numbers  p {
+  
+    font-size: 22px;
+    line-height: 28px;
+ 
+  }
+}

@@ -1,0 +1,107 @@
+.services-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.services-header .left {
+  width: 53%;
+}
+.services-header .left h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: -0.05em;
+  word-spacing: -6px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.services-header .left .item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.services-header .left .item img {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.services-header .left .item p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.05em;
+  color: #333333;
+  margin-bottom: 0;
+}
+.services-header .left button{
+    width: 193px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #1A6CC7;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+.services-header .left button:hover{
+  opacity: 0.7;
+}
+.services-header .right {
+  width: 47%;
+}
+.services-header .right img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
+/* Responsive----------- */
+@media screen and (max-width:800px) {
+  .services-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services-header .left {
+    width: 100%
+  }
+  .services-header .left h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    letter-spacing:0;
+    word-spacing:0;
+  }
+  .services-header .left .item p {
+    font-size: 16px;
+ 
+  }
+  .services-header .left button{
+      width: 120px;
+      height: 40px;
+      margin-top: 20px;
+      font-size: 14px;
+  }
+  
+  .services-header .right {
+    width: 100%;
+    display: flex;
+  }
+  .services-header .right img {
+    width: 85%;
+    height: 140px;
+    margin-top: 30px;
+  }
+}

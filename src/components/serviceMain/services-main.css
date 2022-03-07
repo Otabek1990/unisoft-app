@@ -1,0 +1,112 @@
+.services-main {
+  margin-bottom: 100px;
+}
+.services-main .main-item {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: #f4f7f5;
+}
+.services-main .main-item .left {
+  width: 400px;
+  display: inline-block;
+  margin-right: 40px;
+}
+.services-main .main-item .right {
+  padding: 40px 30px 40px 0;
+}
+.services-main .main-item .right .title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #333333;
+}
+.services-main .main-item .right .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  word-spacing: -2px;
+  color: #333333;
+  font-weight: 100 !important;
+}
+.services-main .main-item .right .options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.services-main .main-item .right .options img {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.services-main .main-item .right .options p {
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  /* black */
+
+  color: #333333;
+}
+.services-main .main-item .right .order {
+  margin-top: 50px;
+  width: 193px;
+  height: 45px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #26b3e9 0%, #1289d9 100%);
+}
+
+/* Responsive---------------------- */
+@media screen and (max-width: 800px) {
+  .services-main {
+    margin-bottom: 30px;
+  }
+  .services-main .main-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    padding:0 5px;
+
+  }
+  .services-main .main-item .left {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .services-main .main-item .right {
+    text-align: justify;
+  }
+  .services-main .main-item .right .title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .services-main .main-item .right .description {
+    font-size: 16px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 30px;
+  }
+
+  .services-main .main-item .right .options p {
+    font-size: 16px;
+  }
+  .services-main .main-item .right .order {
+    margin-top: 20px;
+    width: 125px;
+    font-size: 14px;
+  }
+}
